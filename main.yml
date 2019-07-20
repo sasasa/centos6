@@ -51,7 +51,8 @@
           - php-gd
           - php-intl
           - php-xml
-        enablerepo: remi-php56
+          - php-mcrypt
+        enablerepo: remi,remi-php73
         state: present
       notify:
         - restart apache
