@@ -78,6 +78,7 @@
     - name: install ruby dependencies
       yum:
         name:
+          - java-1.8.0-openjdk-devel
           - ntpdate
           - vim-enhanced
           - gcc
